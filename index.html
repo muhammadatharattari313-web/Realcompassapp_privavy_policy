@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Compass</title>
+  <style>
+    :root {
+      --bg: #05080f;
+      --surface: #0b1220;
+      --border: #1d2d4a;
+      --accent: #33b2ff;
+      --text: #eef4ff;
+      --muted: #9eb0c9;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 24px 16px 48px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px 28px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(51, 178, 255, 0.12);
+      border: 1px solid rgba(51, 178, 255, 0.35);
+      border-radius: 999px;
+      padding: 4px 12px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      line-height: 1.25;
+      color: #ffffff;
+    }
+    .meta {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      font-size: 19px;
+      color: var(--accent);
+    }
+    p, li {
+      color: #dbe6f7;
+      font-size: 15px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 8px 0 16px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin: 12px 0;
+    }
+    footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--muted);
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 24px 18px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="badge">Google Play Compliant Privacy Policy</div>
+      <h1>Privacy Policy for Compass</h1>
+      <p class="meta">
+        <strong>App Name:</strong> Compass &nbsp;|&nbsp;
+        <strong>Package Name:</strong> <code>com.aistudio.truenorth.kpqzxm</code><br />
+        <strong>Effective Date:</strong> November 20, 2026 &nbsp;|&nbsp;
+        <strong>Last Updated:</strong> November 20, 2026
+      </p>
+    </header>
+
+    <section>
+      <p>
+        This Privacy Policy explains how the <strong>Compass</strong> Android application
+        (package ID: <code>com.aistudio.truenorth.kpqzxm</code>) handles information when you use the app.
+        We respect your privacy and designed Compass so that core compass functionality works without requiring
+        an account or transmitting your personal information to any developer-owned servers.
+      </p>
+    </section>
+
+    <section>
+      <h2>1. Information We Access and How It Is Used</h2>
+
+      <div class="card">
+        <strong>a) Foreground Location Data (Optional)</strong>
+        <p>
+          Compass requests optional foreground location permission
+          (<code>ACCESS_FINE_LOCATION</code> and <code>ACCESS_COARSE_LOCATION</code>) strictly while the app
+          is open on your screen to calculate and display your current <strong>Latitude</strong>,
+          <strong>Longitude</strong>, and <strong>GPS Altitude</strong> using Google Play Services.
+        </p>
+        <ul>
+          <li>Location is used only for real-time on-screen display inside the app.</li>
+          <li>Compass does <strong>not</strong> access background location when the app is closed.</li>
+          <li>The developer does <strong>not</strong> collect, log, sell, or store your GPS coordinates on any external server.</li>
+          <li>You can deny or revoke location permission at any time in Android Settings; the compass dial and magnetic sensor features continue to work without location access.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <strong>b) Device Motion &amp; Magnetic Sensors (On-Device Only)</strong>
+        <p>
+          Compass reads hardware sensor data (rotation vector, accelerometer, and magnetometer) and uses
+          optional device vibration (<code>VIBRATE</code>) to render heading angles, tilt compensation,
+          magnetic field strength (&micro;T), interference/calibration alerts, and optional directional haptic ticks.
+          All sensor readings are processed locally in real time on your device and are never stored or shared.
+        </p>
+      </div>
+
+      <div class="card">
+        <strong>c) Advertising &amp; Network Data (Google AdMob)</strong>
+        <p>
+          Compass uses network permissions (<code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>) to load
+          advertisements via <strong>Google AdMob</strong> (Google Mobile Ads SDK). When ads are requested or displayed,
+          Google and its advertising partners may automatically collect and process certain data, including:
+        </p>
+        <ul>
+          <li><strong>Device or Other Identifiers:</strong> Google Advertising ID (<code>AD_ID</code>), app set ID, or similar identifiers.</li>
+          <li><strong>Diagnostics &amp; Interaction Data:</strong> Ad impressions, clicks, crash/performance metrics, and fraud-prevention signals.</li>
+          <li><strong>Approximate Location:</strong> General region/country inferred from IP address by Google for ad delivery and compliance.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. Third-Party Services</h2>
+      <p>
+        Compass relies on the following third-party Google services, which process data according to their own privacy policies:
+      </p>
+      <ul>
+        <li>
+          <strong>Google AdMob (Google Mobile Ads SDK):</strong>
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+          &nbsp;|&nbsp;
+          <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">How Google Uses Advertising Data</a>
+        </li>
+        <li>
+          <strong>Google Play Services (Fused Location Provider):</strong>
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Data Sharing, Retention, and Security</h2>
+      <ul>
+        <li><strong>No Developer Servers:</strong> Compass does not require user registration, accounts, or logins, and the developer does not collect or retain personal user data on private servers.</li>
+        <li><strong>Third-Party Processing:</strong> Data processed by Google AdMob is transmitted securely over HTTPS/TLS encryption and retained according to Google's data retention policies.</li>
+        <li><strong>No Sale of Personal Data:</strong> The developer does not sell your personal information.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Your Privacy Controls &amp; Choices</h2>
+      <ul>
+        <li><strong>Location Permission:</strong> Enable or revoke location access anytime under <em>Android Settings &gt; Apps &gt; Compass &gt; Permissions</em>.</li>
+        <li><strong>Advertising ID &amp; Personalized Ads:</strong> Reset or delete your Advertising ID, or opt out of personalized advertising, under <em>Android Settings &gt; Privacy &gt; Ads</em> (or <em>Google Settings &gt; Ads</em>).</li>
+        <li><strong>Haptic Feedback:</strong> Toggle directional haptic vibrations off anytime inside the app's Settings sheet.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Children's Privacy</h2>
+      <p>
+        Compass is a general-utility navigation tool and is not directed to children under the age of 13
+        (or the applicable minimum age in your jurisdiction). We do not knowingly collect personal data
+        from children. If you believe a child has provided personal information through third-party ad
+        services, please contact us so we can assist promptly.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time to reflect app updates, legal requirements,
+        or Google Play policy updates. Any revisions will be posted on this page with an updated
+        "Last Updated" date.
+      </p>
+    </section>
+
+    <section>
+      <h2>7. Contact Us</h2>
+      <p>
+        If you have any questions, privacy requests, or concerns regarding this Privacy Policy or the
+        <strong>Compass</strong> app, please contact the developer at:
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:muhammadatharattari313@gmail.com">muhammadatharattari313@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      &copy; 2026 Compass (<code>com.aistudio.truenorth.kpqzxm</code>). All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
